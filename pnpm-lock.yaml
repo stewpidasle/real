@@ -89,7 +89,7 @@ importers:
         version: 5.6.2
       zod:
         specifier: ^3.23.8
-        version: 3.23.8
+        version: 3.24.2
 
 packages:
 
@@ -242,7 +242,7 @@ packages:
     dependencies:
       sitemap: 8.0.0
       stream-replace-string: 2.0.0
-      zod: 3.23.8
+      zod: 3.24.2
     dev: false
 
   /@astrojs/starlight-tailwind@2.0.3(@astrojs/starlight@0.26.4)(@astrojs/tailwind@5.1.1)(tailwindcss@4.0.8):
@@ -2572,12 +2572,12 @@ packages:
       ramda: 0.30.1
       ramda-adjunct: 5.1.0(ramda@0.30.1)
     optionalDependencies:
-      '@swagger-api/apidom-error': 1.0.0-beta.12
-      '@swagger-api/apidom-json-pointer': 1.0.0-beta.12
+      '@swagger-api/apidom-error': 1.0.0-alpha.9
+      '@swagger-api/apidom-json-pointer': 1.0.0-alpha.9
       '@swagger-api/apidom-ns-asyncapi-2': 1.0.0-beta.12
       '@swagger-api/apidom-ns-openapi-2': 1.0.0-beta.12
       '@swagger-api/apidom-ns-openapi-3-0': 1.0.0-beta.12
-      '@swagger-api/apidom-ns-openapi-3-1': 1.0.0-beta.12
+      '@swagger-api/apidom-ns-openapi-3-1': 1.0.0-alpha.9
       '@swagger-api/apidom-ns-workflows-1': 1.0.0-beta.12
       '@swagger-api/apidom-parser-adapter-api-design-systems-json': 1.0.0-beta.12
       '@swagger-api/apidom-parser-adapter-api-design-systems-yaml': 1.0.0-beta.12
@@ -3108,9 +3108,9 @@ packages:
       which-pm: 3.0.0
       xxhash-wasm: 1.0.2
       yargs-parser: 21.1.1
-      zod: 3.23.8
-      zod-to-json-schema: 3.23.3(zod@3.23.8)
-      zod-to-ts: 1.2.0(typescript@5.6.2)(zod@3.23.8)
+      zod: 3.24.2
+      zod-to-json-schema: 3.23.3(zod@3.24.2)
+      zod-to-ts: 1.2.0(typescript@5.6.2)(zod@3.24.2)
     optionalDependencies:
       sharp: 0.33.5
     transitivePeerDependencies:
@@ -8820,26 +8820,26 @@ packages:
       readable-stream: 4.5.2
     dev: true
 
-  /zod-to-json-schema@3.23.3(zod@3.23.8):
+  /zod-to-json-schema@3.23.3(zod@3.24.2):
     resolution: {integrity: sha512-TYWChTxKQbRJp5ST22o/Irt9KC5nj7CdBKYB/AosCRdj/wxEMvv4NNaj9XVUHDOIp53ZxArGhnw5HMZziPFjog==}
     peerDependencies:
       zod: ^3.23.3
     dependencies:
-      zod: 3.23.8
+      zod: 3.24.2
     dev: false
 
-  /zod-to-ts@1.2.0(typescript@5.6.2)(zod@3.23.8):
+  /zod-to-ts@1.2.0(typescript@5.6.2)(zod@3.24.2):
     resolution: {integrity: sha512-x30XE43V+InwGpvTySRNz9kB7qFU8DlyEy7BsSTCHPH1R0QasMmHWZDCzYm6bVXtj/9NNJAZF3jW8rzFvH5OFA==}
     peerDependencies:
       typescript: ^4.9.4 || ^5.0.2
       zod: ^3
     dependencies:
       typescript: 5.6.2
-      zod: 3.23.8
+      zod: 3.24.2
     dev: false
 
-  /zod@3.23.8:
-    resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
+  /zod@3.24.2:
+    resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
     dev: false
 
   /zwitch@2.0.4:
